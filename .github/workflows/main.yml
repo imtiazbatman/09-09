@@ -1,0 +1,11 @@
+name: my-first
+
+on: push
+
+jobs: 
+  echo-hello
+   run-on: ubuntu-latest
+   steps:
+   - name: my-jobs1
+     runs: echo "Hello Word!"
+     
